@@ -3,12 +3,19 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>To-Do App</title> 
+    
+    <!-- Material Design Lite -->
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  
+   <!-- Font Awesome -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
     <div id="the-header" class="the-header">
-        <h1>To-Do App</h1>
+        <h1>Stuff To Do</h1>
     
     <form id="addToDoForm" class="addToDoForm">
         <label for="newToDoText" class="newToDoText">New To-Do:</label>
@@ -18,10 +25,8 @@
 </div>
   
     <ul id="toDoList">
-      <li>Cook dinner</li>
-      <li>Study</li>
     </ul>
-
+    <span style="visibility: hidden" id="1" class="delete">&#10007;</span>
    </div>
    <script src="app.js"></script>
   </body>
