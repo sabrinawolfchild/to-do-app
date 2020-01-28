@@ -1,0 +1,79 @@
+body {
+
+    margin: 0;
+    min-width: 300px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.the-header {
+    background-color: powderblue;
+    padding: 20px 30px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.the-header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.newToDoText {
+    color:whitesmoke;
+    margin-right: 2px;
+}
+
+
+.input {
+    width: 50%;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.submit {
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.submit:hover {
+    background-color: lightskyblue;
+ 
+}
+.addToDoForm {
+    background-color: cornflowerblue;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li {
+
+    position: relative;
+    background-color: aquamarine;
+    list-style-type: none;
+    cursor: pointer; padding: 10px 6px 10px 30px;
+    transition: 0.3s;
+}
+
+
+ul li:hover {
+    background-color: chartreuse;
+}
+ 
